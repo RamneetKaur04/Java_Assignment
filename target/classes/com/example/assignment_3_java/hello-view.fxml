@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import com.example.assignment_3_java.HelloController?> <!-- Import your controller class -->
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" spacing="10" alignment="CENTER" fx:controller="com.example.assignment_3_java.HelloController"> <!-- Specify the controller class -->
+    <Label text="Enter amount in dollars:" />
+    <TextField fx:id="dollarsTextField" />
+    <Button text="Convert" onAction="#convertDollarsToRupees" />
+    <Label fx:id="resultLabel" />
+</VBox>
